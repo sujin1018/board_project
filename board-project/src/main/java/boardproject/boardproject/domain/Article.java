@@ -1,8 +1,13 @@
 package boardproject.boardproject.domain;
 
+import lombok.Getter;
+import lombok.ToString;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+@Getter
+@ToString
 public class Article {
     private Long id;
     private String title; // 제목
